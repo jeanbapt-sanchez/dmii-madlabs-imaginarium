@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b3f13719599a714991f557879979bc1, type: 3}
+  m_Name: CEMONDEDEMUSIC
+  m_EditorClassIdentifier: 
+  clip: {fileID: 8300000, guid: ba6f2e3747f5b5345a16c472b1f97f53, type: 3}
+  subtitle: "Ce monde de musique aurait \xE9t\xE9 id\xE9al pour nos petites danseuses
+    si les m\xE9lodies de la plan\xE8te Symphonia n'\xE9taient pas r\xE9gies de mains
+    de fer par .. "

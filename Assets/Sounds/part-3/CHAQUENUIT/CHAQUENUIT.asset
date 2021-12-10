@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b3f13719599a714991f557879979bc1, type: 3}
+  m_Name: CHAQUENUIT
+  m_EditorClassIdentifier: 
+  clip: {fileID: 8300000, guid: a7430b6208dc46a4383583bca060f33e, type: 3}
+  subtitle: "Chaque nuit elle imposait \xE0 l'orchestre son cacophonique concerto
+    \xE0 d\xE9gouter les musiciens des plus beaux bol\xE9ros."

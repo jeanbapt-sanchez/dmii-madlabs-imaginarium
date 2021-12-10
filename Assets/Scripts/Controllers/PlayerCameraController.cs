@@ -18,7 +18,6 @@ public class PlayerCameraController : MonoBehaviour {
     private void LateUpdate() {
         playerMouseInput = new Vector2(Input.GetAxis("Mouse X"), Input.GetAxis("Mouse Y"));
         
-        Debug.Log(target.position);
         Vector3 desiredPosition = target.position + offset;
         transform.position = Vector3.Lerp(transform.position, desiredPosition, CameraSpeed);
 
