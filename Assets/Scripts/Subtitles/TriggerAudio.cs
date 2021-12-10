@@ -2,8 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TriggerAudio : MonoBehaviour
-{
+public class TriggerAudio : MonoBehaviour {
     private GameObject activeGameObject;
     public AudioObject clipToPlay;
     
@@ -11,8 +10,7 @@ public class TriggerAudio : MonoBehaviour
         activeGameObject = GameObject.Find("Garland");
         activeGameObject.SetActive(false);
     }
-    private void OnTriggerEnter(Collider other)
-    {
+    private void OnTriggerEnter(Collider other) {
         if (other.CompareTag("Player")) {
             if (gameObject.tag == "lastEvent") {
                 activeGameObject.SetActive(true);
@@ -21,8 +19,7 @@ public class TriggerAudio : MonoBehaviour
         }
     }
 
-    private void OnTriggerExit(Collider other)
-    {
+    private void OnTriggerExit(Collider other) {
         GetComponent<BoxCollider>().enabled = false;
     }
 }
